@@ -1,60 +1,103 @@
 # Multi-Agent Workflow Showcase
 
-A public portfolio repository for my hands-on AI system work across **OpenClaw deployment**, **multi-agent collaboration**, **research monitoring workflows**, and an **agent console/dashboard**.
+AI workflow portfolio for **AI product / AI engineering / workflow automation / agent orchestration** roles.
 
-> This is a **sanitized showcase repository** prepared for portfolio / resume / interview usage. Sensitive business data, private credentials, and internal production details are intentionally removed.
-
----
-
-## Overview
-
-This repository summarizes a body of work that moved through four layers:
-
-1. **Infrastructure** — local OpenClaw deployment and workflow adaptation  
-2. **Collaboration** — multi-agent task loops and orchestration  
-3. **Application** — monitoring, digest, and structured research workflows  
-4. **Presentation** — agent console / dashboard for visibility and productization  
-
-The goal was not just to “use AI tools”, but to turn AI into a practical workflow system that can support real task execution, monitoring, and delivery.
+> A sanitized public repository showing how I turned local AI tooling into a usable workflow system: deployment, multi-agent execution loops, monitoring workflows, and a console layer for visibility. Sensitive business data, private credentials, and production-only details are intentionally removed.
 
 ---
 
-## Featured modules
+## Who I am
 
-### 1. OpenClaw local AI system
-- Completed OpenClaw deployment from 0 to 1 in a local environment
-- Adapted the workflow for real task execution rather than one-off experiments
-- Connected messaging / automation paths into usable execution flows
+I build **practical AI workflow systems** rather than isolated demos.
 
-See: [`docs/projects/openclaw-system.md`](docs/projects/openclaw-system.md)
+This repository is meant to help a hiring manager, recruiter, or interviewer answer four questions quickly:
 
-### 2. Multi-agent workflow
-- Designed a main-agent / sub-agent collaboration structure
-- Built a practical loop of **dispatch -> execution -> result sync -> follow-up dispatch**
-- Framed agent cooperation around real task progress and result-driven reporting
+1. **What roles fit me?**  
+   AI 产品 / AI 应用工程 / 自动化工作流 / Agent 编排 / 技术型 PM + builder
+2. **What did I personally lead?**  
+   Local OpenClaw deployment, workflow adaptation, multi-agent loop design, monitoring/digest workflow implementation, and dashboard-style presentation
+3. **Where are the results?**  
+   In the project walkthroughs, sanitized examples, architecture writeups, and portfolio-oriented summary docs in this repo
+4. **Why is this interview-worthy?**  
+   Because the work connects infrastructure → workflow → use case → visibility, instead of stopping at prompt experiments or single scripts
 
-See: [`docs/projects/multi-agent-workflow.md`](docs/projects/multi-agent-workflow.md)
+---
 
-### 3. Research monitoring system
-- Built configurable monitoring workflows for research-style use cases
-- Covered digest generation, structured summaries, tracked objects, and multi-source thinking
-- Framed the work as a reusable system rather than a single script
+## Why this repository is worth reviewing
 
-See: [`docs/projects/research-monitoring.md`](docs/projects/research-monitoring.md)
+### 1. Clear candidate positioning
+I am strongest in projects that require:
+- turning AI capability into a repeatable workflow
+- connecting tools, agents, and delivery loops
+- making complex systems easier to operate and explain
+- pushing a prototype toward something closer to a usable product
 
-### 4. Twitter / X digest workflow
-- Structured tracked-account monitoring around a digest-oriented workflow
-- Used config-driven tracked entities and separated collection from rendering
-- Refined output style for actual daily readability instead of raw dump behavior
+### 2. I led end-to-end workflow design
+My role was not only “write a script” or “call an API”. I drove the project through multiple layers:
+- **system setup**: local OpenClaw deployment and adaptation
+- **workflow design**: multi-agent dispatch / execution / sync / follow-up loops
+- **application implementation**: research monitoring and digest workflows
+- **presentation**: an agent console / dashboard to make system state visible
 
-See: [`docs/projects/twitter-digest-implementation.md`](docs/projects/twitter-digest-implementation.md)
+### 3. The output is portfolio-readable
+This repo is intentionally structured for hiring review:
+- short README homepage
+- role / impact summary
+- metrics and scope summary
+- demo walkthrough
+- project and case documents for deeper review
 
-### 5. Agent console / dashboard
-- Added a visible layer to the workflow system
-- Used dashboard-style interfaces to surface task states and workflow observability
-- Strengthened the system from backend execution to frontend presentation
+---
 
-See: [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
+## My role and impact
+
+### What I personally drove
+- set up and adapted a local OpenClaw-based AI operating environment
+- designed the main-agent / sub-agent collaboration pattern
+- built workflow logic around dispatch → execution → result sync → follow-up dispatch
+- implemented monitoring / digest style workflows with reusable configuration ideas
+- added a console/dashboard layer to improve observability and presentation
+
+### What this shows
+- I can move from technical setup to practical workflow execution
+- I can frame AI work as a system, not just a collection of prompts
+- I can connect backend execution with user-facing visibility
+- I think about delivery, maintainability, and communication together
+
+See:
+- [`docs/my-role-and-impact.md`](docs/my-role-and-impact.md)
+- [`docs/metrics-and-scope.md`](docs/metrics-and-scope.md)
+- [`docs/demo-walkthrough.md`](docs/demo-walkthrough.md)
+
+---
+
+## Result signals
+
+This repository demonstrates several concrete result signals relevant to hiring:
+
+- **From tooling to system**: not only using AI tools, but shaping them into a repeatable execution environment
+- **From single-agent to multi-agent**: introducing role separation and collaboration loops
+- **From raw output to usable workflow**: monitoring, digesting, and structured delivery instead of one-off generation
+- **From backend logic to product surface**: adding a console/dashboard to improve visibility and explainability
+- **From personal experimentation to portfolio packaging**: sanitizing, organizing, and documenting the work for external review
+
+---
+
+## Best pages to read first
+
+If you only spend 5–10 minutes on this repository, read in this order:
+
+1. [`docs/my-role-and-impact.md`](docs/my-role-and-impact.md)
+2. [`docs/metrics-and-scope.md`](docs/metrics-and-scope.md)
+3. [`docs/demo-walkthrough.md`](docs/demo-walkthrough.md)
+4. [`docs/cases/agent-console-case.md`](docs/cases/agent-console-case.md)
+5. [`docs/resume/resume-summary.md`](docs/resume/resume-summary.md)
+
+Then go deeper into:
+- [`docs/projects/openclaw-system.md`](docs/projects/openclaw-system.md)
+- [`docs/projects/multi-agent-workflow.md`](docs/projects/multi-agent-workflow.md)
+- [`docs/projects/research-monitoring.md`](docs/projects/research-monitoring.md)
+- [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
 
 ---
 
@@ -63,63 +106,31 @@ See: [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
 ```text
 .
 ├── README.md
+├── assets/
+│   └── files-overview.png
 ├── docs/
-│   ├── ai-achievements-summary.md
+│   ├── my-role-and-impact.md
+│   ├── metrics-and-scope.md
+│   ├── demo-walkthrough.md
 │   ├── github-sanitization-notes.md
-│   ├── projects-overview.md
-│   └── projects/
-│       ├── openclaw-system.md
-│       ├── multi-agent-workflow.md
-│       ├── research-monitoring.md
-│       └── agent-console.md
-├── examples/
-│   ├── accounts.example.json
-│   └── twitter_digest_sample.py
-└── assets/
-    └── files-overview.png
+│   ├── cases/
+│   ├── projects/
+│   └── resume/
+└── examples/
+    ├── accounts.example.json
+    └── twitter_digest_sample.py
 ```
 
 ---
 
-## Key capabilities demonstrated
+## Notes for recruiters / hiring managers
 
-- Local AI system deployment and adaptation
-- Multi-agent orchestration and role separation
-- Config-driven workflow design
-- Monitoring and digest generation pipelines
-- Skill / methodology abstraction for repeated tasks
-- Dashboard-oriented productization thinking
-- Converting AI from chat interaction into workflow execution
+- This is a **sanitized portfolio repository**, not a full production dump
+- The emphasis is on **ownership, system thinking, workflow design, and productization awareness**
+- If you are hiring for AI application, workflow automation, agent systems, or technical product builder roles, this repo is designed to make that fit easy to evaluate
 
----
-
-## Suggested reading order
-
-If you are viewing this repository for portfolio or interview purposes:
-
-1. Start with [`docs/ai-achievements-summary.md`](docs/ai-achievements-summary.md)
-2. Read [`docs/projects-overview.md`](docs/projects-overview.md)
-3. Open the project pages under [`docs/projects/`](docs/projects/)
-4. Review sanitized examples in [`examples/`](examples/)
-
----
-
-## Notes
-
-This repository is designed for:
-- portfolio presentation
-- resume linking
-- interview discussion
-- architecture / workflow demonstration
-
-It is **not** a full dump of private production materials.
-
----
-
-## Resume / portfolio support
-
-This repository now also includes:
-- case-style writeups under [`docs/cases/`](docs/cases/)
-- resume-oriented bullet drafts under [`docs/resume/`](docs/resume/)
-
-These are intended to make the project easier to reference in job applications and interviews.
+If useful, I can also walk through the project as:
+- a product case
+- a technical architecture discussion
+- a workflow design discussion
+- a “what I personally owned vs. what is omitted for privacy” discussion
