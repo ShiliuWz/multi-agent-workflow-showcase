@@ -106,3 +106,13 @@ This repository is designed for:
 - architecture / workflow demonstration
 
 It is **not** a full dump of private production materials.
+
+---
+
+## Resume / portfolio support
+
+This repository now also includes:
+- case-style writeups under [`docs/cases/`](docs/cases/)
+- resume-oriented bullet drafts under [`docs/resume/`](docs/resume/)
+
+These are intended to make the project easier to reference in job applications and interviews.
