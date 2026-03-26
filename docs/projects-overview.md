@@ -1,22 +1,24 @@
 # Projects Overview
 
-## 1. OpenClaw Local AI System
-A local AI operating setup built and adapted for practical work. The emphasis was not just running the framework, but making it usable for real task delivery.
+## Portfolio structure
+The work represented in this repository can be understood as four connected project layers:
 
-## 2. Multi-Agent Workflow Design
-A workflow structure centered on role separation, dispatching, execution, and result synchronization. The focus was building a repeatable loop instead of isolated prompts.
+### 1. OpenClaw local system
+The operational base: local deployment, environment adaptation, and practical setup.
 
-## 3. Research Monitoring Workflow
-A monitoring-oriented workflow for collecting updates, normalizing them, and generating structured digests for ongoing use.
+### 2. Multi-agent workflow
+The orchestration layer: task routing, role separation, result synchronization, and closed-loop execution.
 
-Representative directions included:
-- social account monitoring
-- market data / exchange tracking
-- community-source integration
-- configurable tracked-object management
+### 3. Research monitoring workflows
+The application layer: ongoing monitoring, structured summaries, config-driven tracked objects, and digest generation.
 
-## 4. Agent Console / Dashboard
-A visible layer for surfacing workflow states and improving observability. This added a product-facing dimension to the system.
+### 4. Agent console / dashboard
+The presentation layer: a visual path for observing workflow states and demonstrating system completeness.
 
-## 5. Reusable Skill / Tooling Layer
-A methodology layer that turns repeatable AI-assisted tasks into reusable workflow patterns rather than repeated manual prompting.
+## How these layers connect
+- The local system makes workflow execution possible
+- The multi-agent workflow organizes task collaboration
+- The monitoring workflows provide real application value
+- The dashboard makes the system visible and presentable
+
+Taken together, these layers show a progression from infrastructure -> workflow -> application -> presentation.

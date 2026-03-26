@@ -1,68 +1,108 @@
 # Multi-Agent Workflow Showcase
 
-A portfolio-style showcase of my hands-on AI system work around **OpenClaw deployment**, **multi-agent collaboration**, **research monitoring workflows**, and an **agent console/dashboard**.
+A public portfolio repository for my hands-on AI system work across **OpenClaw deployment**, **multi-agent collaboration**, **research monitoring workflows**, and an **agent console/dashboard**.
 
-> This repository is a **sanitized public showcase**. It focuses on architecture, workflows, sample configs, and project summaries. Company-specific data, private credentials, internal targets, and sensitive business context are intentionally excluded.
+> This is a **sanitized showcase repository** prepared for portfolio / resume / interview usage. Sensitive business data, private credentials, and internal production details are intentionally removed.
 
-## What this repository shows
+---
 
-### 1. OpenClaw deployment and workflow optimization
-- Completed local OpenClaw deployment from 0 to 1
-- Integrated cross-tool workflows around chat delivery and browser-driven automation
-- Optimized core execution paths for real task handling instead of one-off demos
+## Overview
 
-### 2. Multi-agent collaboration
-- Designed and ran a multi-agent collaboration pattern
+This repository summarizes a body of work that moved through four layers:
+
+1. **Infrastructure** — local OpenClaw deployment and workflow adaptation  
+2. **Collaboration** — multi-agent task loops and orchestration  
+3. **Application** — monitoring, digest, and structured research workflows  
+4. **Presentation** — agent console / dashboard for visibility and productization  
+
+The goal was not just to “use AI tools”, but to turn AI into a practical workflow system that can support real task execution, monitoring, and delivery.
+
+---
+
+## Featured modules
+
+### 1. OpenClaw local AI system
+- Completed OpenClaw deployment from 0 to 1 in a local environment
+- Adapted the workflow for real task execution rather than one-off experiments
+- Connected messaging / automation paths into usable execution flows
+
+See: [`docs/projects/openclaw-system.md`](docs/projects/openclaw-system.md)
+
+### 2. Multi-agent workflow
+- Designed a main-agent / sub-agent collaboration structure
 - Built a practical loop of **dispatch -> execution -> result sync -> follow-up dispatch**
-- Used a main-agent / sub-agent structure to support task orchestration
+- Framed agent cooperation around real task progress and result-driven reporting
 
-### 3. Research monitoring workflows
-Built reusable monitoring and digest workflows for real research scenarios, including:
-- X/Twitter daily digest pipelines
-- market / exchange tracking workflows
-- community-source monitoring extensions
-- structured summaries instead of raw data dumps
+See: [`docs/projects/multi-agent-workflow.md`](docs/projects/multi-agent-workflow.md)
+
+### 3. Research monitoring system
+- Built configurable monitoring workflows for research-style use cases
+- Covered digest generation, structured summaries, tracked objects, and multi-source thinking
+- Framed the work as a reusable system rather than a single script
+
+See: [`docs/projects/research-monitoring.md`](docs/projects/research-monitoring.md)
 
 ### 4. Agent console / dashboard
-- Built a visual agent console / real-time dashboard concept
-- Turned backend workflows into something observable and presentable
-- Improved system completeness from backend execution to frontend visibility
+- Added a visible layer to the workflow system
+- Used dashboard-style interfaces to surface task states and workflow observability
+- Strengthened the system from backend execution to frontend presentation
+
+See: [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
+
+---
 
 ## Repository structure
 
-- `docs/ai-achievements-summary.md` — consolidated summary of AI achievements
-- `docs/projects-overview.md` — portfolio-style overview of key project modules
-- `docs/github-sanitization-notes.md` — what is intentionally omitted / sanitized
-- `examples/accounts.example.json` — sanitized example config structure
-- `examples/twitter_digest_sample.py` — sanitized sample script structure
-- `assets/` — reserved for screenshots, diagrams, and dashboard images
+```text
+.
+├── README.md
+├── docs/
+│   ├── ai-achievements-summary.md
+│   ├── github-sanitization-notes.md
+│   ├── projects-overview.md
+│   └── projects/
+│       ├── openclaw-system.md
+│       ├── multi-agent-workflow.md
+│       ├── research-monitoring.md
+│       └── agent-console.md
+├── examples/
+│   ├── accounts.example.json
+│   └── twitter_digest_sample.py
+└── assets/
+    └── files-overview.png
+```
+
+---
 
 ## Key capabilities demonstrated
 
 - Local AI system deployment and adaptation
-- Multi-agent workflow design
-- Agent task orchestration and closed-loop execution
-- Config-driven monitoring pipelines
-- Daily digest generation and structured output design
-- Tooling / skill abstraction for repeated workflows
-- Dashboard-oriented productization mindset
+- Multi-agent orchestration and role separation
+- Config-driven workflow design
+- Monitoring and digest generation pipelines
+- Skill / methodology abstraction for repeated tasks
+- Dashboard-oriented productization thinking
+- Converting AI from chat interaction into workflow execution
 
-## Selected project themes
+---
 
-### OpenClaw + Multi-Agent System
-A practical local AI operating environment with role separation, task routing, and result feedback loops.
+## Suggested reading order
 
-### Research Monitoring System
-A configurable workflow for collecting, normalizing, and summarizing updates from multiple sources for research usage.
+If you are viewing this repository for portfolio or interview purposes:
 
-### Agent Console
-A visual layer for observing task states and agent workflow progress.
+1. Start with [`docs/ai-achievements-summary.md`](docs/ai-achievements-summary.md)
+2. Read [`docs/projects-overview.md`](docs/projects-overview.md)
+3. Open the project pages under [`docs/projects/`](docs/projects/)
+4. Review sanitized examples in [`examples/`](examples/)
+
+---
 
 ## Notes
-This repository is intended for:
+
+This repository is designed for:
 - portfolio presentation
 - resume linking
 - interview discussion
-- architecture and workflow demonstration
+- architecture / workflow demonstration
 
 It is **not** a full dump of private production materials.
