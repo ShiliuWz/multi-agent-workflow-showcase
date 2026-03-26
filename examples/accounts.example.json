@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "name": "Example Project",
+      "handle": "example_project",
+      "category": "official",
+      "enabled": true
+    },
+    {
+      "name": "Example Founder",
+      "handle": "example_founder",
+      "category": "team",
+      "enabled": true
+    }
+  ]
+}
