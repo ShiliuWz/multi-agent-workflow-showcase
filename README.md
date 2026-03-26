@@ -42,7 +42,14 @@ See: [`docs/projects/multi-agent-workflow.md`](docs/projects/multi-agent-workflo
 
 See: [`docs/projects/research-monitoring.md`](docs/projects/research-monitoring.md)
 
-### 4. Agent console / dashboard
+### 4. Twitter / X digest workflow
+- Structured tracked-account monitoring around a digest-oriented workflow
+- Used config-driven tracked entities and separated collection from rendering
+- Refined output style for actual daily readability instead of raw dump behavior
+
+See: [`docs/projects/twitter-digest-implementation.md`](docs/projects/twitter-digest-implementation.md)
+
+### 5. Agent console / dashboard
 - Added a visible layer to the workflow system
 - Used dashboard-style interfaces to surface task states and workflow observability
 - Strengthened the system from backend execution to frontend presentation
