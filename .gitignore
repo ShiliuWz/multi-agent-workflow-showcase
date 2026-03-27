@@ -12,3 +12,11 @@ __pycache__/
 *.env
 credentials/
 private/
+
+# mparticle daily public packaging
+examples/mparticle-daily/config/auth.json
+examples/mparticle-daily/config/settings.py
+examples/mparticle-daily/data/*.db
+examples/mparticle-daily/data/*.sqlite
+examples/mparticle-daily/data/*.sqlite3
+examples/mparticle-daily/data/*.log

@@ -80,6 +80,7 @@ This repository demonstrates several concrete result signals relevant to hiring:
 - **From raw output to usable workflow**: monitoring, digesting, and structured delivery instead of one-off generation
 - **From backend logic to product surface**: adding a console/dashboard to improve visibility and explainability
 - **From personal experimentation to portfolio packaging**: sanitizing, organizing, and documenting the work for external review
+- **From one-off reading to scheduled intelligence delivery**: packaging a daily content pipeline with config templates, deployment examples, and GitHub-safe artifacts
 
 ---
 
@@ -90,13 +91,15 @@ If you only spend 5–10 minutes on this repository, read in this order:
 1. [`docs/my-role-and-impact.md`](docs/my-role-and-impact.md)
 2. [`docs/metrics-and-scope.md`](docs/metrics-and-scope.md)
 3. [`docs/demo-walkthrough.md`](docs/demo-walkthrough.md)
-4. [`docs/cases/agent-console-case.md`](docs/cases/agent-console-case.md)
-5. [`docs/resume/resume-summary.md`](docs/resume/resume-summary.md)
+4. [`docs/projects/mparticle-daily-intelligence.md`](docs/projects/mparticle-daily-intelligence.md)
+5. [`docs/cases/mparticle-daily-case.md`](docs/cases/mparticle-daily-case.md)
+6. [`docs/resume/resume-summary.md`](docs/resume/resume-summary.md)
 
 Then go deeper into:
 - [`docs/projects/openclaw-system.md`](docs/projects/openclaw-system.md)
 - [`docs/projects/multi-agent-workflow.md`](docs/projects/multi-agent-workflow.md)
 - [`docs/projects/research-monitoring.md`](docs/projects/research-monitoring.md)
+- [`docs/projects/mparticle-daily-intelligence.md`](docs/projects/mparticle-daily-intelligence.md)
 - [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
 
 ---
@@ -118,6 +121,7 @@ Then go deeper into:
 │   └── resume/
 └── examples/
     ├── accounts.example.json
+    ├── mparticle-daily/
     └── twitter_digest_sample.py
 ```
 

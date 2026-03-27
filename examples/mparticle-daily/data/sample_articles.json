@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-27",
+  "since": "2026-03-26",
+  "total_new": 3,
+  "fetched_content": 3,
+  "articles": [
+    {
+      "account": "Example Creator A",
+      "title": "How I turned recurring reading into a daily intelligence routine",
+      "pub_date": "2026-03-26 08:15",
+      "content_preview": "A sanitized synthetic sample article showing how the pipeline stores account, title, publication time, and a short normalized content preview."
+    },
+    {
+      "account": "Example Creator B",
+      "title": "Three product lessons from building with AI workflows",
+      "pub_date": "2026-03-26 12:40",
+      "content_preview": "This sample item demonstrates the structure used by the daily digest stage after content collection and cleaning."
+    },
+    {
+      "account": "Example Creator C",
+      "title": "Why scheduled digest delivery improves research consistency",
+      "pub_date": "2026-03-26 20:05",
+      "content_preview": "The public repository keeps representative schema and workflow shape while removing private account lists and source material."
+    }
+  ],
+  "accounts": {
+    "Example Creator A": 1,
+    "Example Creator B": 1,
+    "Example Creator C": 1
+  }
+}

@@ -36,6 +36,8 @@ Then optionally continue with:
 - [`projects/openclaw-system.md`](./projects/openclaw-system.md)
 - [`projects/multi-agent-workflow.md`](./projects/multi-agent-workflow.md)
 - [`projects/research-monitoring.md`](./projects/research-monitoring.md)
+- [`projects/mparticle-daily-intelligence.md`](./projects/mparticle-daily-intelligence.md)
+- [`cases/mparticle-daily-case.md`](./cases/mparticle-daily-case.md)
 
 ## Suggested interview discussion angles
 

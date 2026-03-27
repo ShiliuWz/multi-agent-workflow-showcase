@@ -22,3 +22,7 @@ The presentation layer: a visual path for observing workflow states and demonstr
 - The dashboard makes the system visible and presentable
 
 Taken together, these layers show a progression from infrastructure -> workflow -> application -> presentation.
+
+
+### 5. mparticle daily intelligence pipeline
+A scheduled content monitoring and digest-delivery workflow packaged as a GitHub-safe portfolio example with sanitized config and deployment templates.

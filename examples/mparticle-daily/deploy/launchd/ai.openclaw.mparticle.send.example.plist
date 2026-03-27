@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>ai.openclaw.mparticle.send</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/ABSOLUTE/PATH/TO/mparticle-daily/scripts/send_report.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/ABSOLUTE/PATH/TO/mparticle-daily</string>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>40</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/ABSOLUTE/PATH/TO/mparticle-daily/data/cron_send.log</string>
+    <key>StandardErrorPath</key>
+    <string>/ABSOLUTE/PATH/TO/mparticle-daily/data/cron_send.log</string>
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
