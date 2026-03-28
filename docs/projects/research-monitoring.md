@@ -3,6 +3,12 @@
 ## What this module represents
 This module captures the application layer of the work: turning AI workflows into something usable for ongoing research and monitoring scenarios.
 
+## Visual proof
+
+![community monitoring digest proof](../../assets/community-monitoring-digest-proof.jpg)
+
+This snapshot shows the monitoring work in digest form: ranked discussions, highlighted topics, official announcements, market/community sentiment, and active-user summaries packaged into a readable daily output.
+
 ## System framing
 The monitoring work was not treated as a single-purpose script. It was organized as a multi-module system that could evolve over time.
 
