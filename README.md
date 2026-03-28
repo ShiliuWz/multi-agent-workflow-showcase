@@ -84,6 +84,29 @@ This repository demonstrates several concrete result signals relevant to hiring:
 
 ---
 
+## Result signals
+
+This repository demonstrates several concrete result signals relevant to hiring:
+
+- **From tooling to system**: not only using AI tools, but shaping them into a repeatable execution environment
+- **From single-agent to multi-agent**: introducing role separation and collaboration loops
+- **From raw output to usable workflow**: monitoring, digesting, and structured delivery instead of one-off generation
+- **From backend logic to product surface**: adding a console/dashboard to improve visibility and explainability
+- **From personal experimentation to portfolio packaging**: sanitizing, organizing, and documenting the work for external review
+- **From one-off reading to scheduled intelligence delivery**: packaging a daily content pipeline with config templates, deployment examples, and GitHub-safe artifacts
+
+## Visual proof
+
+### Agent Console dashboard snapshot
+
+This screenshot shows the presentation layer of the workflow system: agent status cards, task/activity panels, log feed, and execution summaries in a dashboard-oriented interface.
+
+![Agent Console dashboard proof](assets/agent-console-dashboard-proof.jpg)
+
+See also:
+- [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
+- [`docs/cases/agent-console-case.md`](docs/cases/agent-console-case.md)
+
 ## Best pages to read first
 
 If you only spend 5–10 minutes on this repository, read in this order:
