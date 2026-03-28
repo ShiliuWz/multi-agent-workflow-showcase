@@ -13,6 +13,7 @@ The practical collaboration loop was structured as:
 - role separation in task handling
 - result-driven sync logic
 - emphasis on reporting meaningful outcomes instead of empty status updates
+- continuation logic so a result can trigger the next step instead of forcing a fresh manual restart every time
 
 ## Why it matters
 This shows the ability to design AI collaboration as a workflow system rather than as isolated one-shot prompting.
@@ -23,3 +24,4 @@ This module is central because it reflects:
 - task decomposition awareness
 - execution loop design
 - workflow reliability mindset
+- practical understanding of how to keep a dispatch -> execution -> sync-back -> redispatch loop operating

@@ -18,6 +18,7 @@ Representative implemented directions included:
 - a Twitter / X intelligence monitoring subsystem
 - a Twitter / X daily digest workflow
 - a knowledge-community monitoring workflow
+- a subscription / public-account style daily intelligence packaging example
 - a reusable OpenClaw-native web access skill
 
 ## Concrete characteristics reflected in the source materials
@@ -61,8 +62,18 @@ Representative workflow properties include:
 - summary-first output design
 - retry and scheduling awareness
 
+This direction is important because it reflects a move from simple single-account following toward broader signal tracking and repeated discovery.
+
 ### Knowledge-community monitoring
 The source materials also reflect expansion beyond public social feeds into community-style sources, which is important because it shows the system was being designed for broader source coverage rather than a single channel.
+
+### Broader source coverage direction
+Taken together, the monitoring materials suggest a system direction that can absorb multiple source types:
+- public social feeds
+- community discussion channels
+- subscription / public-account content
+
+That matters in portfolio terms because it shows the work was aiming at a reusable research system, not a one-source crawler.
 
 ## Why this module matters
 This module is important because it shows the ability to:
