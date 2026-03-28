@@ -3,6 +3,12 @@
 ## What this project is
 This project packages a **scheduled content intelligence workflow** that turns recurring article monitoring into a daily digest delivery system.
 
+## Visual proof
+
+![mparticle daily digest proof](../../assets/mparticle-daily-digest-proof.jpg)
+
+The screenshot shows a daily digest card delivered in chat form, making the system output more concrete: structured highlights, daily summary, key threads, action items, and important articles.
+
 Public-safe framing:
 - scheduled sync and scan workflow
 - content extraction and normalization

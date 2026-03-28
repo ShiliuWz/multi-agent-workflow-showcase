@@ -7,6 +7,12 @@ Recurring content monitoring is easy to start manually but hard to sustain consi
 - daily follow-up quality becomes inconsistent
 - delivery is easy to miss without scheduling
 
+## Visual proof
+
+![mparticle daily digest proof](../../assets/mparticle-daily-digest-proof.jpg)
+
+The screenshot shows the output in its intended operating surface: a structured daily digest card delivered into chat, with highlights, summary, action items, and curated article links.
+
 ## What I built
 I structured the work as a **daily content intelligence pipeline** with clear stages:
 
