@@ -1,126 +1,120 @@
 # Multi-Agent Workflow Showcase
 
-AI workflow portfolio for **AI product / AI engineering / workflow automation / agent orchestration** roles.
+Portfolio repository for **AI application / AI engineering / workflow automation / agent orchestration** roles.
 
-> A sanitized public repository showing how I turned local AI tooling into a usable workflow system: deployment, multi-agent execution loops, monitoring workflows, and a console layer for visibility. Sensitive business data, private credentials, and production-only details are intentionally removed.
+> This is a sanitized public portfolio repo. It shows how I turned local AI tooling into a usable workflow system with execution loops, monitoring pipelines, and a visible console layer. Sensitive business data, private credentials, and production-only context are intentionally removed.
 
----
+## 30-second summary
 
-## Who I am
+This repository is meant to answer three hiring questions quickly:
 
-I build **practical AI workflow systems** rather than isolated demos.
+1. **What kind of roles fit me?**
+   AI application builder, AI workflow / automation, agent orchestration, technical PM + builder
+2. **What did I personally drive?**
+   Local OpenClaw setup and adaptation, main-agent / sub-agent workflow design, monitoring and digest workflows, and a dashboard / console layer for visibility
+3. **Why is this repo worth opening?**
+   Because it shows infrastructure -> workflow -> use case -> presentation, instead of stopping at prompts or isolated scripts
 
-This repository is meant to help a hiring manager, recruiter, or interviewer answer four questions quickly:
+## Best fit roles
 
-1. **What roles fit me?**  
-   AI 产品 / AI 应用工程 / 自动化工作流 / Agent 编排 / 技术型 PM + builder
-2. **What did I personally lead?**  
-   Local OpenClaw deployment, workflow adaptation, multi-agent loop design, monitoring/digest workflow implementation, and dashboard-style presentation
-3. **Where are the results?**  
-   In the project walkthroughs, sanitized examples, architecture writeups, and portfolio-oriented summary docs in this repo
-4. **Why is this interview-worthy?**  
-   Because the work connects infrastructure → workflow → use case → visibility, instead of stopping at prompt experiments or single scripts
+- AI application engineer
+- AI workflow / automation builder
+- Agent orchestration / multi-agent execution
+- Technical product role with strong hands-on implementation
 
----
+## What this repo proves
 
-## Why this repository is worth reviewing
+- I can turn AI capability into a **repeatable workflow**, not just run one-off experiments
+- I can connect **system setup, workflow design, application use case, and presentation layer**
+- I think about **delivery loops, observability, and maintainability**, not only model output
+- I can package technical work into something a recruiter or hiring manager can review quickly
 
-### 1. Clear candidate positioning
-I am strongest in projects that require:
-- turning AI capability into a repeatable workflow
-- connecting tools, agents, and delivery loops
-- making complex systems easier to operate and explain
-- pushing a prototype toward something closer to a usable product
+## Quick read path
 
-### 2. I led end-to-end workflow design
-My role was not only “write a script” or “call an API”. I drove the project through multiple layers:
-- **system setup**: local OpenClaw deployment and adaptation
-- **workflow design**: multi-agent dispatch / execution / sync / follow-up loops
-- **application implementation**: research monitoring and digest workflows
-- **presentation**: an agent console / dashboard to make system state visible
+If a recruiter or interviewer only spends 5 minutes here, read in this order:
 
-### 3. The output is portfolio-readable
-This repo is intentionally structured for hiring review:
-- short README homepage
-- role / impact summary
-- metrics and scope summary
-- demo walkthrough
-- project and case documents for deeper review
+1. [`docs/resume-proof-map.md`](docs/resume-proof-map.md)
+2. [`docs/my-role-and-impact.md`](docs/my-role-and-impact.md)
+3. [`docs/demo-walkthrough.md`](docs/demo-walkthrough.md)
+4. One case page:
+   - [`docs/cases/agent-console-case.md`](docs/cases/agent-console-case.md)
+   - [`docs/cases/mparticle-daily-case.md`](docs/cases/mparticle-daily-case.md)
+   - [`docs/cases/research-monitoring-case.md`](docs/cases/research-monitoring-case.md)
 
----
+## Resume claim -> proof
 
-## My role and impact
+If you want to verify resume-style claims directly, start here:
 
-### What I personally drove
-- set up and adapted a local OpenClaw-based AI operating environment
-- designed the main-agent / sub-agent collaboration pattern
-- built workflow logic around dispatch → execution → result sync → follow-up dispatch
-- implemented monitoring / digest style workflows with reusable configuration ideas
-- added a console/dashboard layer to improve observability and presentation
+- [`docs/resume-proof-map.md`](docs/resume-proof-map.md)
 
-### What this shows
-- I can move from technical setup to practical workflow execution
-- I can frame AI work as a system, not just a collection of prompts
-- I can connect backend execution with user-facing visibility
-- I think about delivery, maintainability, and communication together
+That page maps:
+
+- claim / capability
+- what I personally owned
+- where the proof lives in this repository
+
+## Core project layers
+
+This portfolio is structured as four connected layers:
+
+1. **Local OpenClaw system**
+   local deployment, adaptation, and environment setup
+2. **Multi-agent workflow**
+   dispatch -> execution -> result sync -> follow-up dispatch
+3. **Monitoring and digest workflows**
+   recurring collection, filtering, summary, and delivery
+4. **Agent console / dashboard**
+   visibility layer for runtime state, tasks, logs, and workflow completeness
 
 See:
-- [`docs/my-role-and-impact.md`](docs/my-role-and-impact.md)
-- [`docs/metrics-and-scope.md`](docs/metrics-and-scope.md)
-- [`docs/demo-walkthrough.md`](docs/demo-walkthrough.md)
 
----
-
-## Result signals
-
-This repository demonstrates several concrete result signals relevant to hiring:
-
-- **From tooling to system**: not only using AI tools, but shaping them into a repeatable execution environment
-- **From single-agent to multi-agent**: introducing role separation and collaboration loops
-- **From raw output to usable workflow**: monitoring, digesting, and structured delivery instead of one-off generation
-- **From backend logic to product surface**: adding a console/dashboard to improve visibility and explainability
-- **From personal experimentation to portfolio packaging**: sanitizing, organizing, and documenting the work for external review
-- **From one-off reading to scheduled intelligence delivery**: packaging a daily content pipeline with config templates, deployment examples, and GitHub-safe artifacts
-
----
-
-## Evidence gallery
-
-These snapshots make the portfolio more concrete at a glance:
-
-| Evidence | What it shows |
-| --- | --- |
-| ![Agent Console dashboard proof](assets/agent-console-dashboard-proof.jpg) | **Agent Console / Dashboard** — a presentation layer for workflow observability, status visibility, logs, and execution summaries. |
-| ![mparticle daily digest proof](assets/mparticle-daily-digest-proof.jpg) | **mparticle Daily Intelligence Pipeline** — a scheduled digest delivery workflow with structured highlights, summary, and action items. |
-| ![community monitoring digest proof](assets/community-monitoring-digest-proof.jpg) | **Community / Research Monitoring** — a monitoring-and-digest surface for recurring discussion tracking, ranking, announcements, and market/community signal summaries. |
-
-Related pages:
-- [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
-- [`docs/projects/mparticle-daily-intelligence.md`](docs/projects/mparticle-daily-intelligence.md)
-- [`docs/projects/research-monitoring.md`](docs/projects/research-monitoring.md)
-- [`docs/cases/agent-console-case.md`](docs/cases/agent-console-case.md)
-- [`docs/cases/mparticle-daily-case.md`](docs/cases/mparticle-daily-case.md)
-- [`docs/cases/research-monitoring-case.md`](docs/cases/research-monitoring-case.md)
-
-## Best pages to read first
-
-If you only spend 5–10 minutes on this repository, read in this order:
-
-1. [`docs/my-role-and-impact.md`](docs/my-role-and-impact.md)
-2. [`docs/metrics-and-scope.md`](docs/metrics-and-scope.md)
-3. [`docs/demo-walkthrough.md`](docs/demo-walkthrough.md)
-4. [`docs/projects/mparticle-daily-intelligence.md`](docs/projects/mparticle-daily-intelligence.md)
-5. [`docs/cases/mparticle-daily-case.md`](docs/cases/mparticle-daily-case.md)
-6. [`docs/resume/resume-summary.md`](docs/resume/resume-summary.md)
-
-Then go deeper into:
 - [`docs/projects/openclaw-system.md`](docs/projects/openclaw-system.md)
 - [`docs/projects/multi-agent-workflow.md`](docs/projects/multi-agent-workflow.md)
 - [`docs/projects/research-monitoring.md`](docs/projects/research-monitoring.md)
 - [`docs/projects/mparticle-daily-intelligence.md`](docs/projects/mparticle-daily-intelligence.md)
 - [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
 
----
+## Evidence gallery
+
+| Evidence | What it proves |
+| --- | --- |
+| ![Agent Console dashboard proof](assets/agent-console-dashboard-proof.jpg) | **Agent Console / Dashboard**: a presentation layer for workflow observability, status visibility, logs, and execution summaries |
+| ![mparticle daily digest proof](assets/mparticle-daily-digest-proof.jpg) | **Daily intelligence pipeline**: a recurring monitoring and digest workflow with structured outputs |
+| ![community monitoring digest proof](assets/community-monitoring-digest-proof.jpg) | **Research / community monitoring**: a recurring information workflow that surfaces signals instead of raw data |
+
+## What I personally led
+
+- set up and adapted a local OpenClaw-based AI operating environment
+- designed the main-agent / sub-agent collaboration pattern
+- built workflow logic around dispatch -> execution -> result sync -> follow-up dispatch
+- implemented monitoring / digest style workflows with reusable configuration ideas
+- added a console / dashboard layer to improve observability and presentation quality
+
+See:
+
+- [`docs/my-role-and-impact.md`](docs/my-role-and-impact.md)
+- [`docs/metrics-and-scope.md`](docs/metrics-and-scope.md)
+- [`docs/selected-achievements.md`](docs/selected-achievements.md)
+
+## Best pages for different readers
+
+### Recruiter / hiring manager
+
+- [`docs/resume-proof-map.md`](docs/resume-proof-map.md)
+- [`docs/resume/resume-summary.md`](docs/resume/resume-summary.md)
+- [`docs/selected-achievements.md`](docs/selected-achievements.md)
+
+### Technical interviewer
+
+- [`docs/projects/openclaw-system.md`](docs/projects/openclaw-system.md)
+- [`docs/projects/multi-agent-workflow.md`](docs/projects/multi-agent-workflow.md)
+- [`docs/projects/agent-console.md`](docs/projects/agent-console.md)
+
+### Product / AI application discussion
+
+- [`docs/cases/agent-console-case.md`](docs/cases/agent-console-case.md)
+- [`docs/cases/research-monitoring-case.md`](docs/cases/research-monitoring-case.md)
+- [`docs/cases/mparticle-daily-case.md`](docs/cases/mparticle-daily-case.md)
 
 ## Repository structure
 
@@ -128,31 +122,27 @@ Then go deeper into:
 .
 ├── README.md
 ├── assets/
-│   └── files-overview.png
 ├── docs/
+│   ├── resume-proof-map.md
 │   ├── my-role-and-impact.md
 │   ├── metrics-and-scope.md
 │   ├── demo-walkthrough.md
-│   ├── github-sanitization-notes.md
-│   ├── cases/
 │   ├── projects/
+│   ├── cases/
 │   └── resume/
 └── examples/
-    ├── accounts.example.json
-    ├── mparticle-daily/
-    └── twitter_digest_sample.py
 ```
 
----
+## Important note
 
-## Notes for recruiters / hiring managers
+This is a **sanitized portfolio repository**, not a full production dump.
 
-- This is a **sanitized portfolio repository**, not a full production dump
-- The emphasis is on **ownership, system thinking, workflow design, and productization awareness**
-- If you are hiring for AI application, workflow automation, agent systems, or technical product builder roles, this repo is designed to make that fit easy to evaluate
+It intentionally omits:
 
-If useful, I can also walk through the project as:
-- a product case
-- a technical architecture discussion
-- a workflow design discussion
-- a “what I personally owned vs. what is omitted for privacy” discussion
+- private credentials
+- sensitive business data
+- full production datasets
+- confidential customer context
+- internal-only logs or delivery details
+
+The goal is to make **scope, ownership, workflow quality, and productization thinking** easy to review in public.

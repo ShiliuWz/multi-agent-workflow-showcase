@@ -4,16 +4,24 @@
 
 If you want the fastest understanding of this portfolio, use this path:
 
-### Step 1: Read the homepage
-Start with the repository [`README.md`](../README.md).
+### Step 1: Read the resume-proof page
+Start with [`resume-proof-map.md`](./resume-proof-map.md).
+
+What to look for:
+- resume-style claims
+- what I personally owned
+- where each claim is verified
+
+### Step 2: Read the homepage
+Then read the repository [`README.md`](../README.md).
 
 What to look for:
 - candidate positioning
 - role fit
-- what I personally led
-- why the project is interview-worthy
+- why the repo is worth opening
+- best path for different readers
 
-### Step 2: Read role and impact
+### Step 3: Read role and impact
 Open [`my-role-and-impact.md`](./my-role-and-impact.md).
 
 What to look for:
@@ -21,7 +29,7 @@ What to look for:
 - cross-layer execution ability
 - signs of productization thinking
 
-### Step 3: Read scope and evidence framing
+### Step 4: Read scope and evidence framing
 Open [`metrics-and-scope.md`](./metrics-and-scope.md).
 
 What to look for:
@@ -29,7 +37,7 @@ What to look for:
 - what is intentionally omitted
 - how to evaluate the repo fairly as a sanitized portfolio
 
-### Step 4: Review one representative case
+### Step 5: Review one representative case
 Recommended first case: [`cases/agent-console-case.md`](./cases/agent-console-case.md)
 
 Then optionally continue with:
